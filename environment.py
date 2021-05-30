@@ -50,7 +50,7 @@ class Environment:
         x, y = position[:2]
         return self.board[x][y] == 0.0
 
-    def get_reward(self, symbol: int) -> int:
+    def get_reward(self, symbol: float) -> int:
         '''
         Returns the award of the current state
         '''
